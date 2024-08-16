@@ -1,8 +1,17 @@
 {
     "version": 2,
+    "functions": {
+        "public/*.php": {
+            "runtime": "vercel-php@0.5.2"
+        }
+    },
     "routes": [
         {
-            "src": "/public/(.*)",
+            "src": "/",
+            "dest": "/public/index.php"
+        },
+        {
+            "src": "/(.*)",
             "dest": "/$1"
         }
     ]
