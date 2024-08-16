@@ -1,0 +1,9 @@
+{
+    "name": "dityaaaa09/invensma",
+    "description": "Deploy PHP Application to Vercel",
+    "type": "project",
+    "license": "MIT",
+    "require": {
+        "vlucas/phpdotenv": "^4.3"
+    }
+}
